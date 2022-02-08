@@ -1,0 +1,37 @@
+/* if we still have an
+element name, we select ALL
+instances of that element.
+The following will select all the <li>
+elements */
+
+ul li {
+   background-color: skyblue; 
+}
+
+/* li#important has more precedence than #important, and will use li#important style */
+/* as it is more specific */
+/* https://specificity.keegan.st/ to see which has more precedent than other */
+li#important {
+    background-color: red;
+}
+
+#important {
+    background-color: yellow;
+}
+
+.good-to-have {
+    background-color: green;
+}
+
+/* child selector */
+/* it does not care whether the child is direct or indirect descendant */
+/* it will apply to all child element */
+#content p {
+    border: black 1px solid;
+}
+
+/* > selects the direct descedant only */
+#article > p {
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
