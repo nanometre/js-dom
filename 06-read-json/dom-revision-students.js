@@ -1,4 +1,4 @@
-// the DOMContentLoaded event happens to the window
+    // the DOMContentLoaded event happens to the window
 // when the DOM tree is ready. This makes it perfect
 // starting place for your web application
 window.addEventListener("DOMContentLoaded", async function(){
