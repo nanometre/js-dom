@@ -1,0 +1,22 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+/* .box:hover {
+    width: 200px;
+    transition: width 2s linear;
+} */
+
+.stretch {
+    transition: width 5s, height 5s, background-color 5s;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.expand {
+    transition: height 0.5s;
+    height: 600px;
+}
